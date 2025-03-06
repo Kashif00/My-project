@@ -187,6 +187,7 @@ public class BlogAction extends ActionSupport implements SessionAware,ModelDrive
 		/*String blogid = request.getParameter("abc");
 		Blog blog=blogService.getBlogDetails(Integer.parseInt(blogid));
 		*/System.out.println("Blog Created");
+		*/System.out.println("Kashif Blog is created");
 		
 		String title=request.getParameter("postTitle");
 		String text=request.getParameter("post_content");
